@@ -1,0 +1,65 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("IMG_8538.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  .Registration-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 750px;
+    height: 450px;
+    border: 2px solid #5e9f64;
+    background-color: #fff;
+    box-shadow: 0 0 25px #50eb0e;
+    padding: 32px 40px;
+    box-sizing: border-box;
+  }
+  .Registration-container .form-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .form-box h1 {
+    font-size: 32px;
+    text-align:left;
+  }
+    .form-box .input-box {
+      position: absulote;
+      width: 100%;
+      height: 20px;
+      margin-top: 12px;
+    }
+
+  .button-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .form-box button[type="submit"] {
+    background: linear-gradient(90deg, #5e9f64 0%, #b80150 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 36px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(184, 1, 80, 0.15);
+    transition: background 0.3s, transform 0.2s;
+    transform: translateY(-2px) scale(1.04);
+  }
+
+  

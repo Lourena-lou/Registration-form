@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 4 – Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Registration-container">
+        <div class="form-box">
+  <h1>Student Registration 👩🏽‍🏫📚 </h1>
+  <br>
+  <form action="#">
+    <div class="input-box"> 
+  <label for="">Full name </label>
+  <input type="text"  required>
+    </div>
+    <br>
+    <div class="input-box">
+  <label for="">Email </label>
+  <input type="email"  required>
+    </div>
+    <br>
+    <div class="input-box">
+    <label for="">Programme</label>
+    <select id="programme" name="programme" required>
+      <option value="">Select a programme</option>
+      <option value="Software Engineering">Software Engineering</option>
+      <option value="Ciber Security">Ciber Security</option>
+      <option value="Informatics">Informatics</option>
+      </select>
+    </div>
+    <br>
+    <div class="input-box">
+        <label for="" >Year</label>
+        <input type="number" min="1" max="4" required>
+    </div>
+    <br>
+    <div class="input-box">
+  <label for="">Interests</label>
+  <input type="text" required>
+  </div>
+  <br>
+  <div class="input-box">
+    <label for="photo">Upload Photo</label>
+    <input type="file"  accept="image/*" required>
+  </div>
+  <br>
+  <div class="button-center">
+    <button class="button-blur" type="submit">Submit</button>
+  </div>
+</div>
+  </form>
+</div>
+    </body>
+    </html>
